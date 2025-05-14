@@ -1,14 +1,50 @@
 const etapas = [
-  { id: 1, titulo: "Configuração básica da loja", data: "14/05/2025 a 18/05/2025" },
-  { id: 2, titulo: "Design e personalização", data: "19/05/2025 a 27/05/2025" },
-  { id: 3, titulo: "Cadastro e migração de produtos", data: "28/05/2025 a 05/06/2025" },
-  { id: 4, titulo: "Configuração de funcionalidades", data: "06/06/2025 a 14/06/2025" },
-  { id: 5, titulo: "Testes gerais e ajustes", data: "15/06/2025 a 19/06/2025" },
-  { id: 6, titulo: "Apresentação de prévias para aprovação", data: "20/06/2025 a 22/06/2025" },
-  { id: 7, titulo: "Ajustes finais e correções", data: "23/06/2025 a 25/06/2025" },
-  { id: 8, titulo: "Entrega final e publicação da loja", data: "26/06/2025 a 27/06/2025" }
+  {
+    id: 1,
+    titulo: "Organização e Coleta de Informações",
+    data: "14/05/2025 a 16/05/2025"
+  },
+  {
+    id: 2,
+    titulo: "Configuração básica da loja",
+    data: "17/05/2025 a 21/05/2025"
+  },
+  {
+    id: 3,
+    titulo: "Design e personalização",
+    data: "22/05/2025 a 30/05/2025"
+  },
+  {
+    id: 4,
+    titulo: "Cadastro e migração de produtos",
+    data: "31/05/2025 a 08/06/2025"
+  },
+  {
+    id: 5,
+    titulo: "Configuração de funcionalidades",
+    data: "09/06/2025 a 17/06/2025"
+  },
+  {
+    id: 6,
+    titulo: "Testes gerais e ajustes",
+    data: "18/06/2025 a 21/06/2025"
+  },
+  {
+    id: 7,
+    titulo: "Apresentação de prévias para aprovação",
+    data: "22/06/2025 a 24/06/2025"
+  },
+  {
+    id: 8,
+    titulo: "Ajustes finais e correções",
+    data: "25/06/2025 a 26/06/2025"
+  },
+  {
+    id: 9,
+    titulo: "Entrega final e publicação da loja",
+    data: "27/06/2025"
+  }
 ];
-
 const statusList = [
   { value: "pendente", label: "Pendente", icon: "⚪" },
   { value: "andamento", label: "Em andamento", icon: "🟡" },
